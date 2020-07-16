@@ -13,20 +13,28 @@ is being asked of you as you follow the guidelines below.
 
 ### Overview
 
-You will be building an `Owner`, `Dog`, and `Cat` class. An Owner will
-know about all their pets, be able to buy a pet, change a pet's mood through
-walking or feeding it, and sell all of their pets (for when they
-move to that tiny NYC studio after college).
+              You will be building an `Owner`, `Dog`, and `Cat` class. An Owner will
 
-A `Dog` and a `Cat` are initialized with a name and an **Owner object**
+              know about all their pets, 
+
+              be able to buy a pet,
+
+              change a pet's mood through walking or feeding it, 
+              
+              and sell all of their pets (for when they
+              move to that tiny NYC studio after college).
+
+        A `Dog` and a `Cat` are initialized with a name and an **Owner object**
 
 ### Part I: Object Models
 
-- Define a `Dog` and `Cat` class that have the attributes required by the
-  test suite. Keep in mind, some of the attributes should be readable and writable
-  (i.e. `attr_accessor`s), while others may need to be _just_ setters
-  (`attr_writer`) or _just_ getters (`attr_reader`). The test suite will make this
-  clear so pay attention to the test output.
+        - Define a `Dog` and `Cat` class that have the attributes required by the
+          test suite. 
+          
+          Keep in mind, some of the attributes should be readable and writable
+          (i.e. `attr_accessor`s), while others may need to be _just_ setters
+          (`attr_writer`) or _just_ getters (`attr_reader`). The test suite will make this
+          clear so pay attention to the test output.
 
 ### Part II: Object Relations
 
